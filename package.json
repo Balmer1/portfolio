@@ -1,0 +1,19 @@
+{
+  "name": "feno",
+  "version": "1.0.0",
+  "description": "fenotipado webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Balmer1/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Balmer1/portfolio/issues"
+  },
+  "homepage": "https://github.com/Balmer1/portfolio#readme"
+}
