@@ -29,19 +29,25 @@ app.post('/endpoint', function(req, res){
 	var email = req.body.email;
 	var message = req.body.message;
 
-	res.send(null);
-
-	sendmail({
-		  from: 'no-reply@yourdomain.com.ar',
-		  to: 'balmerags@gmail.com',
-		  subject: 'test sendmail',
-		  html: 'Mail of test sendmail ',
-		}, function(err, reply) {
-		  console.log(err && err.stack);
-		  console.dir(reply);
-	});
-	res.send(req.body);
+	if(checkString(name) || checkString(email) || checkString(message)){
+		res.send(null);
+	}else{
+		sendmail({
+				from: 'noreply@balmer.heroku.com',
+				to: 'balmerags@gmail.com',
+				subject: 'Website Contact Form: ' + name,
+				html: message,
+			}, function(err, reply) {
+				console.log(err && err.stack);
+				console.dir(reply);
+		});
+		res.send(req.body);
+	}
 });
+
+function checkString(str) {
+    return (!str || 0 === str.length);
+};
 
 app.use(favicon(path.join(__dirname,'/views/img/favicon.ico')));
 
