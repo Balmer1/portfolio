@@ -24,8 +24,12 @@ app.get('/fenotipado', function (req, res) {
 } );
 
 app.post('/endpoint', function(req, res){
-	var obj = {};
-	console.log('body: ' + req.body.name);
+
+	var name = req.body.name;
+	var email = req.body.email;
+	var message = req.body.message;
+
+	res.send(null);
 
 	sendmail({
 		  from: 'no-reply@yourdomain.com.ar',
@@ -36,10 +40,7 @@ app.post('/endpoint', function(req, res){
 		  console.log(err && err.stack);
 		  console.dir(reply);
 	});
-
 	res.send(req.body);
-
-
 });
 
 app.use(favicon(path.join(__dirname,'/views/img/favicon.ico')));
