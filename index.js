@@ -36,7 +36,7 @@ app.post('/endpoint', function(req, res){
 				from: 'noreply@balmer.heroku.com',
 				to: 'balmerags@gmail.com',
 				subject: 'Website Contact Form: ' + name,
-				html: message,
+				html: email  + "  " + message,
 			}, function(err, reply) {
 				console.log(err && err.stack);
 				console.dir(reply);
