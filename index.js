@@ -17,6 +17,6 @@ app.get('/fenotipado', function (req, res) {
   res.render('fenotipado.html');
 } );
 
-app.use(favicon(path.join(__dirname,'/views/images/favicon.ico')));
+app.use(favicon(path.join(__dirname,'/views/img/favicon.ico')));
 
 app.listen(process.env.PORT || 3000);
