@@ -4,7 +4,7 @@
   "description": "fenotipado webpage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,14 +17,13 @@
   },
   "homepage": "https://github.com/Balmer1/portfolio#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "ejs": "^2.5.5",
     "express": "^4.14.0",
+    "sendmail": "^1.1.1",
     "serve-favicon": "^2.3.2"
   },
-	"engines": {
+  "engines": {
     "node": "7.2.0"
-  },
-	"scripts": {
-		"start": "node index.js"
-	}
+  }
 }
