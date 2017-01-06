@@ -25,3 +25,13 @@ footer {
 #list-nospace{
     padding-left: 20px;
 }
+.flag-container{
+
+}
+.flag-icon{
+    float:right;
+    right: 0px;
+    padding-left: 30px;
+		padding-top: 5px;
+		margin-bottom:20px;
+}

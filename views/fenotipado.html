@@ -9,13 +9,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Aplicaciones en Agricultura de Precisión</title>
+    <title><%= __('Aplicaciones en Agricultura de Precisión')%></title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <link href="css/languages.min	.css" rel="stylesheet">
+
+    <link href="img/languages.png">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,26 +35,31 @@
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container navbar-height">
-            <p class="navbar-brand navbar-left navbar-bold">Proyecto de investigación</p>
+            <p class="navbar-brand navbar-left navbar-bold"><%= __('Proyecto de investigación')%></p>
 	          <p class="navbar-brand navbar-right">Agustín Balmer</p>
         </div>
         <!-- /.container -->
     </nav>
 
+
     <!-- Page Content -->
     <div class="container">
+
+			<div class="flag-container">
+				<a class="flag-icon" href="/fenotipado/es"><span class="lang-sm" lang="es"></span></a>
+				<a class="flag-icon" href="/fenotipado/en"><span class="lang-sm" lang="en"></span></a>
+			</div>
 
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Robótica y Fenotipado de Alta Capacidad con Relevamiento de Datos en Campo
+                <h1 class="page-header"><%= __('Robótica y Fenotipado de Alta Capacidad con Relevamiento de Datos en Campo')%>
 										<br>
-                    <small>Aplicaciones en Agricultura de Precisión</small>
+                    <small><%= __('Aplicaciones en Agricultura de Precisión')%></small>
                 </h1>
             </div>
         </div>
         <!-- /.row -->
-
         <!-- Portfolio Item Row -->
         <div class="row">
 
@@ -59,9 +68,9 @@
             </div>
 
             <div class="col-md-4">
-                <h3>Descripción</h3>
-                <p>Diseño y desarrollo de una plataforma de censado y seguimiento para relevamiento de datos a campo y manejo de grandes volúmenes de datos.</p>
-                <h3>Tecnologías</h3>
+                <h3><%= __('Introducción')%></h3>
+                <p><%= __('Diseño y desarrollo de una plataforma de censado y seguimiento para relevamiento de datos a campo y manejo de grandes volúmenes de datos.')%></p>
+                <h3><%= __('Tecnologías')%></h3>
                 <ul id="list-nospace">
                     <li>Raspberry pi 3</li>
                     <li>Raspbian Wheezy</li>
@@ -81,19 +90,17 @@
         <div class="row">
 
             <div class="col-lg-12">
-                <h3 class="page-header">Descripción</h3>
-								<p>El sistema desarrollado se encarga analizar un stream de video de una cámara de inferior calidad, reconociendo plantas de maíz y realizando un tracking de estas para recolectar una serie de imágenes de una cámara de superior calidad para su posterior análisis. 
-El hardware del sistema es una plataforma Raspberry Pi 3 con sistema operativo Raspbian y pantalla táctil integrada, una cámara web genérica (video), una cámara multiespectral tetracam (imagen) y dos baterías portátiles. 
-El software consiste de un sistema desarrollado en python utilizando las librerías OpenCV para la detección/tracking y Tkinter para la interfaz gráfica.</p>
+                <h3 class="page-header"><%= __('Descripción')%></h3>
+								<p><%= __('El sistema')%></p>
             </div>
 
             <div class="col-lg-12">
-                <h3 class="page-header">Equipo de trabajo</h3>
-								<p>Este es un trabajo conjunto entre la Secretaría de Investigación, Desarrollo y Transferencia de la UNNOBA y el INTA, Estación Experimental Pergamino. El proyecto se desarrolla en el Instituto de Investigación en Tecnologías y Transferencia (ITT) dependiente de la mencionada Secretaría, y se trabaja en conjunto con la Escuela de Tecnología de la UNNOBA.</p>
+                <h3 class="page-header"><%= __('Equipo de trabajo')%></h3>
+								<p><%= __('Este es un trabajo')%></p>
             </div>
 
 						<div class="col-lg-12">
-                <h3 class="page-header">Imágenes</h3>
+                <h3 class="page-header"><%= __('Imágenes')%></h3>
 						</div>
 
             <div class="col-sm-3 col-xs-6">
@@ -116,7 +123,7 @@ El software consiste de un sistema desarrollado en python utilizando las librer�
         <!-- /.row -->
 
 				<div class="col-lg-12">
-		        <h3 class="page-header">Nota</h3>
+		        <h3 class="page-header"><%= __('Nota')%></h3>
 						<a href="http://sedici.unlp.edu.ar/bitstream/handle/10915/53181/Documento_completo.pdf-PDFA.pdf?sequence=1">http://sedici.unlp.edu.ar/bitstream/handle/10915/53181/Documento_completo.pdf-PDFA.pdf</a>
 		    </div>
 

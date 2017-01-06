@@ -1,0 +1,15 @@
+{
+	"Hello":"hola",
+	"Aplicaciones en Agricultura de Precisión": "Aplicaciones en Agricultura de Precisión",
+	"Proyecto de investigación": "Proyecto de investigación",
+	"Robótica y Fenotipado de Alta Capacidad con Relevamiento de Datos en Campo": "Robótica y Fenotipado de Alta Capacidad con Relevamiento de Datos en Campo",
+	"Descripción": "Descripción",
+	"Diseño y desarrollo de una plataforma de censado y seguimiento para relevamiento de datos a campo y manejo de grandes volúmenes de datos.": "Diseño y desarrollo de una plataforma de censado y seguimiento para relevamiento de datos a campo y manejo de grandes volúmenes de datos.",
+	"Tecnologías": "Tecnologías",
+	"Introducción": "Introducción",
+	"El sistema": "El sistema desarrollado se encarga analizar un stream de video de una cámara de inferior calidad, reconociendo plantas de maíz y realizando un tracking de estas para recolectar una serie de imágenes de una cámara de superior calidad para su posterior análisis. El hardware del sistema es una plataforma Raspberry Pi 3 con sistema operativo Raspbian y pantalla táctil integrada, una cámara web genérica (video), una cámara multiespectral tetracam (imagen) y dos baterías portátiles. El software consiste de un sistema desarrollado en python utilizando las librerías OpenCV para la detección/tracking y Tkinter para la interfaz gráfica.",
+	"Equipo de trabajo": "Equipo de trabajo",
+	"Este es un trabajo": "Este es un trabajo conjunto entre la Secretaría de Investigación, Desarrollo y Transferencia de la UNNOBA y el INTA, Estación Experimental Pergamino. El proyecto se desarrolla en el Instituto de Investigación en Tecnologías y Transferencia (ITT) dependiente de la mencionada Secretaría, y se trabaja en conjunto con la Escuela de Tecnología de la UNNOBA.",
+	"Imágenes": "Imágenes",
+	"Nota": "Nota"
+}
